@@ -5,7 +5,7 @@ services:
       depends_on:
         - postgres_db
       build: ./
-      image: "nagendrabommanaboyina/simple_blog"
+      image: "anshulgupta/simple_blog"
       environment:
         - POSTGRES_HOST=postgres_db
         - POSTGRES_PORT=5432
